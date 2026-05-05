@@ -1,3 +1,5 @@
+![Network Diagram](Enterprise-Factory-Network-Lab.png)
+
 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬
 
 - 𝐈𝐧𝐭𝐞𝐫-𝐕𝐋𝐀𝐍 𝐫𝐨𝐮𝐭𝐢𝐧𝐠 𝐮𝐬𝐢𝐧𝐠 𝐒𝐕𝐈 (𝐋𝐚𝐲𝐞𝐫 𝟑 𝐬𝐰𝐢𝐭𝐜𝐡𝐢𝐧𝐠)
