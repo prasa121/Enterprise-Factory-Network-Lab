@@ -2,7 +2,7 @@
 
   Core Layer: 2 Multilayer switches (Layer 3 switching & routing)
   Distribution Layer: Aggregation switches connecting access and core
-  Access Layer: Layer 2 switches connecting end devices (PCs)
+  Access Layer: Layer 2 switches connecting end devices
   
   The design ensures structured traffic flow, scalability, and separation of responsibilities across layers.
 
@@ -21,6 +21,13 @@
 
 3. Key Configurations
    
+  Device Hardening
+    Hostname configuration for device identification
+    Secured privileged access using enable secret
+    Console, AUX, and VTY line passwords configured
+    Enabled service password-encryption
+    Login authentication enforced on all access lines 
+    
   Inter-VLAN Routing (SVI)
     Implemented using Switch Virtual Interfaces (SVI) on core multilayer switches
     Enabled ip routing to allow communication between VLANs
