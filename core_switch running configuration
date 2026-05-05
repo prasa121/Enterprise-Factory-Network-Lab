@@ -1,7 +1,7 @@
 core_1#sh run
 Building configuration...
 
-Current configuration : 3468 bytes
+Current configuration : 3665 bytes
 !
 version 12.2(37)SE1
 no service timestamps log datetime msec
@@ -89,42 +89,61 @@ interface FastEthernet0/5
  switchport mode trunk
 !
 interface FastEthernet0/6
+ shutdown
 !
 interface FastEthernet0/7
+ shutdown
 !
 interface FastEthernet0/8
+ shutdown
 !
 interface FastEthernet0/9
+ shutdown
 !
 interface FastEthernet0/10
+ shutdown
 !
 interface FastEthernet0/11
+ shutdown
 !
 interface FastEthernet0/12
+ shutdown
 !
 interface FastEthernet0/13
+ shutdown
 !
 interface FastEthernet0/14
+ shutdown
 !
 interface FastEthernet0/15
+ shutdown
 !
 interface FastEthernet0/16
+ shutdown
 !
 interface FastEthernet0/17
+ shutdown
 !
 interface FastEthernet0/18
+ shutdown
 !
 interface FastEthernet0/19
+ shutdown
 !
 interface FastEthernet0/20
+ shutdown
 !
 interface FastEthernet0/21
+ shutdown
 !
 interface FastEthernet0/22
+ shutdown
 !
 interface FastEthernet0/23
+ shutdown
 !
 interface FastEthernet0/24
+ shutdown
 !
 interface GigabitEthernet0/1
 !
@@ -191,6 +210,7 @@ ip flow-export version 9
 !
 line con 0
  password 7 0822455D0A16
+ login
 !
 line aux 0
  password 7 0822455D0A16
